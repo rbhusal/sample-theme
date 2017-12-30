@@ -1,0 +1,19 @@
+package Calculator;
+
+public class Starter {
+public static void main(String[] args, int num1){
+	Calculator calc = new Calculator();
+	
+	calc.setNum1(10);
+	calc.setNum2(2);
+	
+	
+	System.out.println (num1 = calc.num1) ;
+	System.out.println (calc.getNum1() + calc.getNum2() );
+	calc.add();
+	calc.subtract();
+	calc.multiply();
+	calc.divide();
+	
+}
+}

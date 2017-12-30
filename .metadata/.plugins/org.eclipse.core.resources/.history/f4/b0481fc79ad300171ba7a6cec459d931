@@ -1,0 +1,56 @@
+package Calculator;
+
+public class Calculator {
+
+	 int num1;
+	 int num2;
+	
+	
+	
+	public int getNum1() {
+		return num1;
+	}
+	public void setNum1(int firstNum1) {
+		this.num1 = firstNum1;
+	}
+	
+	
+	
+	
+	
+	public int getNum2() {
+		return num2;
+	}
+	public void setNum2(int secondNum) {
+		this.num2 = secondNum;
+		
+		if (secondNum == 0){
+			System.out.println("Divisor cannot be 0.Making it one");
+			secondNum=1;
+			num2 = secondNum;
+		}else{
+			num2 = secondNum;
+		}
+		
+	}
+	public void add(){
+	
+	System.out.println(num1 + num2);
+	}
+	public void subtract(){
+		
+		System.out.println(num1 - num2);
+		}
+	public void multiply(){
+		
+		System.out.println(num1 * num2);
+	}
+	
+	public void divide(){
+		
+		System.out.println(num1 / num2);
+		
+	}
+	
+	
+}

@@ -1,0 +1,15 @@
+package Calculator;
+
+public class Starter {
+public static void main(String[] args){
+	Calculator calc = new Calculator();
+	System.out.println ("Add num1+num2");
+	calc.setNum1(10);
+	calc.setNum2(2);
+	calc.add();
+	calc.subtract();
+	calc.multiply();
+	calc.divide();
+	
+}
+}

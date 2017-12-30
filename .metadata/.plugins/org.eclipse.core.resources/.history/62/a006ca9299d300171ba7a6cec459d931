@@ -1,0 +1,30 @@
+package variteyJDBC;
+
+import variety.model;
+
+public class JDBC implements Dao {
+
+	public void addmodel(model model) {
+		statement stmt = null;
+		connection conn = connection
+
+		
+	}
+
+	public void getmodel(model model) {
+		
+	}
+
+	public void updatemodel(model model) {
+		
+	}
+
+	public void deletemodel(model model) {
+		
+	}
+
+	
+
+	
+
+}
